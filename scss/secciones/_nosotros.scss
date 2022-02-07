@@ -1,0 +1,35 @@
+main{
+    .accordion{
+        margin-left: 10px;
+        margin-right: 10px;
+
+        div{
+            .accordion-collapse{
+                .accordion-body{
+                    p{
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                    .img-libreria{
+                        display: flex;
+                        justify-content: space-around;
+
+                        .img{
+                            width: 500px;
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+
+    .formulario{
+        background-color: rgb(176, 205, 216);
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 98%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

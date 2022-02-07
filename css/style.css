@@ -1,0 +1,253 @@
+header nav .container div form .btn {
+  background-color: #5bbfcc;
+  color: white; }
+  header nav .container div form .btn:hover {
+    background-color: #234e53; }
+
+footer {
+  background-color: #e0e4e9; }
+  footer .container .row div h3-footer {
+    margin-top: 10px; }
+  footer .container .row div .ul-footer li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  footer .container .row div .img-redes {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; }
+    footer .container .row div .img-redes:hover {
+      transform: scale(1.1);
+      transition: 00.5s; }
+  footer .footer-copyright {
+    background-color: white; }
+
+main .h3-sucursal {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+main .div-local {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  main .div-local .img-local {
+    width: 575px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  main .div-local .mapa-iframe {
+    width: 575px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+main .accordion {
+  margin-left: 10px;
+  margin-right: 10px; }
+  main .accordion div .accordion-collapse .accordion-body p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  main .accordion div .accordion-collapse .accordion-body .img-libreria {
+    display: flex;
+    justify-content: space-around; }
+    main .accordion div .accordion-collapse .accordion-body .img-libreria .img {
+      width: 500px;
+      height: 250px; }
+
+main .formulario {
+  background-color: #b0cdd8;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 98%;
+  padding: 10px;
+  border-radius: 10px; }
+
+main .figure-sucursales {
+  border-style: groove;
+  border-color: #bbedf3;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px; }
+  main .figure-sucursales .sucursales {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px; }
+    main .figure-sucursales .sucursales .figure-img-sucursales {
+      height: 450px;
+      width: 600px; }
+  main .figure-sucursales p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+main .carousel .carousel-inner div .d-block {
+  height: 400px;
+  width: 1200px;
+  margin-left: 70px; }
+
+main .containerFigure {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around; }
+  main .containerFigure .figure {
+    border-style: groove;
+    border-color: #5bbfcc;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px; }
+    main .containerFigure .figure:hover {
+      transform: scale(1.1);
+      transition: 0.5s; }
+    main .containerFigure .figure .figure-img {
+      width: 200px;
+      height: 300px; }
+    main .containerFigure .figure .figure-caption {
+      display: flex;
+      justify-content: center; }
+
+main .h3-libros {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  background-color: #f5f7fa; }
+
+main .button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+  margin-bottom: 10px; }
+  main .button .btn {
+    background-color: #5bbfcc;
+    color: white; }
+    main .button .btn:hover {
+      background-color: #234e53; }
+
+@media (max-width: 1440px) {
+  .d-block {
+    height: 350px;
+    width: 1200px; }
+  .sucursales img {
+    height: 400px;
+    width: 600px; }
+  .sucursales iframe {
+    height: 400px;
+    width: 600px; }
+  .img-libreria img {
+    width: 600px;
+    height: 350px; } }
+
+@media (max-width: 1024px) {
+  .img-local {
+    width: 450px;
+    height: 300px; }
+  .mapa-iframe {
+    width: 450px;
+    height: 300px; }
+  .d-block {
+    height: 300px;
+    width: 950px;
+    margin-left: 35px; }
+  .h3-libros {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .sucursales img {
+    height: 300px;
+    width: 400px; }
+  .sucursales iframe {
+    height: 300px;
+    width: 400px; }
+  .sucursales img {
+    width: 400px;
+    height: 300px; }
+  .img-libreria img {
+    width: 450px;
+    height: 250px; } }
+
+@media (max-width: 768px) {
+  .img-local {
+    width: 300px;
+    height: 250px; }
+  .mapa-iframe {
+    width: 300px;
+    height: 250px; }
+  .figure {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .d-block {
+    height: 300px;
+    width: 750px;
+    margin-left: 10px; }
+  .figure-img {
+    width: 200px;
+    height: 250px; }
+  .sucursales iframe {
+    height: 200px;
+    width: 300px; }
+  .sucursales img {
+    width: 300px;
+    height: 200px; }
+  .img-libreria img {
+    width: 300px;
+    height: 250px; } }
+
+@media (max-width: 425px) {
+  .div-local {
+    display: flex;
+    flex-direction: column; }
+  .img-local {
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .mapa-iframe {
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .d-block {
+    height: 150px;
+    width: 400px;
+    margin-left: 5px; }
+  .containerFigure {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .h3-libros {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .sucursales iframe {
+    margin-bottom: 10px; }
+  .sucursales img {
+    margin-bottom: 10px; }
+  .img-libreria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .img-libreria img {
+    margin-bottom: 10px; }
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }

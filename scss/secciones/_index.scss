@@ -1,0 +1,34 @@
+main{
+
+    .h3-sucursal{
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 10px;
+        background-color: rgb(245, 247, 250);
+        display: flex;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .div-local{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .img-local{
+            width: 575px;
+            height: 400px;
+            margin-left: 40px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .mapa-iframe{
+            width: 575px;
+            height: 400px;
+            margin-right: 50px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}

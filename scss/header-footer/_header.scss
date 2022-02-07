@@ -1,0 +1,17 @@
+header{
+    nav{
+        .container{
+            div{
+                form{
+                    .btn{
+                        background-color: rgb(91, 191, 204);
+                        color: white;
+                        &:hover{
+                            background-color: rgb(35, 78, 83);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
