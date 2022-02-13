@@ -1,4 +1,7 @@
 //VARIABLES
+@import './variables/extend';
+@import './variables/mixin'; 
+@import './variables/maps';
 
 //IMPORTACIONES
 @import './header-footer/header';
@@ -6,5 +9,6 @@
 @import './secciones/index';
 @import './secciones/nosotros';
 @import './secciones/sucursales';
-@import './productos/productos';
+@import './secciones/productos';
 @import './media-queris/media-queris';
+@import './header-footer/header';

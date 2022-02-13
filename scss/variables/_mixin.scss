@@ -1,0 +1,5 @@
+@mixin formulario ($color, $borde, $padding) {
+    background-color: $color;
+    border-radius: $borde;
+    padding: $padding;
+}

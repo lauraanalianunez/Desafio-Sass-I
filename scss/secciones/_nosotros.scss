@@ -1,4 +1,4 @@
-main{
+.main-nosotros{
     .accordion{
         margin-left: 10px;
         margin-right: 10px;
@@ -24,12 +24,10 @@ main{
     } 
 
     .formulario{
-        background-color: rgb(176, 205, 216);
         margin-left: 15px;
         margin-top: 15px;
         margin-bottom: 15px;
         width: 98%;
-        padding: 10px;
-        border-radius: 10px;
+        @include formulario (rgb(176, 205, 216), 10px, 10px);
     }
 }

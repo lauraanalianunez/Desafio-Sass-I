@@ -1,4 +1,4 @@
-main{
+.main-sucursales{
    .figure-sucursales{
         border-style: groove;
         border-color: rgb(187, 237, 243);
@@ -20,6 +20,11 @@ main{
             margin-bottom: 15px;  
         
             .figure-img-sucursales{
+                height: 450px;
+                width: 600px;
+            }
+
+            iframe{
                 height: 450px;
                 width: 600px;
             }

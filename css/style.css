@@ -1,3 +1,22 @@
+.main-productos .containerFigure .figure {
+  border-style: groove;
+  border-color: #5bbfcc;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.estilo-libros {
+  background-color: #ce88ce; }
+
+.estilo-mangas {
+  background-color: #7171b8; }
+
+.estilo-comics {
+  background-color: #d45c5c; }
+
+.estilo-merchandising {
+  background-color: #b48d43; }
+
 header nav .container div form .btn {
   background-color: #5bbfcc;
   color: white; }
@@ -6,7 +25,7 @@ header nav .container div form .btn {
 
 footer {
   background-color: #e0e4e9; }
-  footer .container .row div h3-footer {
+  footer .container .row div .h3-footer {
     margin-top: 10px; }
   footer .container .row div .ul-footer li {
     margin-bottom: 10px;
@@ -22,7 +41,7 @@ footer {
   footer .footer-copyright {
     background-color: white; }
 
-main .h3-sucursal {
+.main-index .h3-sucursal {
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 10px;
@@ -31,45 +50,90 @@ main .h3-sucursal {
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
-main .div-local {
+.main-index .div-local {
   display: flex;
   align-items: center;
   justify-content: space-around; }
-  main .div-local .img-local {
+  .main-index .div-local .img-local {
     width: 575px;
     height: 400px;
     margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 15px; }
-  main .div-local .mapa-iframe {
+  .main-index .div-local .mapa-iframe {
     width: 575px;
     height: 400px;
     margin-right: 50px;
     margin-top: 15px;
     margin-bottom: 15px; }
 
-main .accordion {
+.main-index .carousel .carousel-inner div .d-block {
+  height: 400px;
+  width: 1200px;
+  margin-left: 70px; }
+
+.main-index .containerFigure {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around; }
+  .main-index .containerFigure .figure {
+    border-style: groove;
+    border-color: #5bbfcc;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .main-index .containerFigure .figure:hover {
+      transform: scale(1.1);
+      transition: 0.5s; }
+    .main-index .containerFigure .figure .figure-img {
+      width: 200px;
+      height: 300px; }
+    .main-index .containerFigure .figure .figure-caption {
+      display: flex;
+      justify-content: center; }
+
+.main-index .h3-libros {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  background-color: #f5f7fa; }
+
+.main-index .button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+  margin-bottom: 10px; }
+  .main-index .button .btn {
+    background-color: #5bbfcc;
+    color: white; }
+    .main-index .button .btn:hover {
+      background-color: #234e53; }
+
+.main-nosotros .accordion {
   margin-left: 10px;
   margin-right: 10px; }
-  main .accordion div .accordion-collapse .accordion-body p {
+  .main-nosotros .accordion div .accordion-collapse .accordion-body p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  main .accordion div .accordion-collapse .accordion-body .img-libreria {
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria {
     display: flex;
     justify-content: space-around; }
-    main .accordion div .accordion-collapse .accordion-body .img-libreria .img {
+    .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria .img {
       width: 500px;
       height: 250px; }
 
-main .formulario {
-  background-color: #b0cdd8;
+.main-nosotros .formulario {
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 98%;
-  padding: 10px;
-  border-radius: 10px; }
+  background-color: #b0cdd8;
+  border-radius: 10px;
+  padding: 10px; }
 
-main .figure-sucursales {
+.main-sucursales .figure-sucursales {
   border-style: groove;
   border-color: #bbedf3;
   display: flex;
@@ -83,171 +147,258 @@ main .figure-sucursales {
   margin-bottom: 15px;
   margin-left: 15px;
   margin-right: 15px; }
-  main .figure-sucursales .sucursales {
+  .main-sucursales .figure-sucursales .sucursales {
     display: flex;
     justify-content: space-around;
     margin-bottom: 15px; }
-    main .figure-sucursales .sucursales .figure-img-sucursales {
+    .main-sucursales .figure-sucursales .sucursales .figure-img-sucursales {
       height: 450px;
       width: 600px; }
-  main .figure-sucursales p {
+    .main-sucursales .figure-sucursales .sucursales iframe {
+      height: 450px;
+      width: 600px; }
+  .main-sucursales .figure-sucursales p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
-main .carousel .carousel-inner div .d-block {
+.main-productos .carousel .carousel-inner div .d-block {
   height: 400px;
   width: 1200px;
   margin-left: 70px; }
 
-main .containerFigure {
+.main-productos .containerFigure {
   margin-top: 15px;
   display: flex;
   justify-content: space-around; }
-  main .containerFigure .figure {
-    border-style: groove;
-    border-color: #5bbfcc;
-    padding-top: 10px;
+  .main-productos .containerFigure .figure {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    padding-left: 10px;
-    padding-right: 10px; }
-    main .containerFigure .figure:hover {
-      transform: scale(1.1);
+    align-content: center; }
+    .main-productos .containerFigure .figure:hover {
+      transform: scale(1.05);
       transition: 0.5s; }
-    main .containerFigure .figure .figure-img {
+    .main-productos .containerFigure .figure .figure-img {
       width: 200px;
       height: 300px; }
-    main .containerFigure .figure .figure-caption {
+    .main-productos .containerFigure .figure .figure-caption {
       display: flex;
       justify-content: center; }
 
-main .h3-libros {
+.main-productos .h3-libros {
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 10px;
-  background-color: #f5f7fa; }
+  margin-top: 10px; }
 
-main .button {
+.main-productos .button {
   display: flex;
   justify-content: flex-end;
   margin-right: 60px;
   margin-bottom: 10px; }
-  main .button .btn {
+  .main-productos .button .btn {
     background-color: #5bbfcc;
     color: white; }
-    main .button .btn:hover {
+    .main-productos .button .btn:hover {
       background-color: #234e53; }
 
 @media (max-width: 1440px) {
-  .d-block {
-    height: 350px;
-    width: 1200px; }
-  .sucursales img {
+  .main-productos .carousel .carousel-inner div .d-block {
+    height: 450px;
+    width: 1200px;
+    margin-left: 70px; }
+  .main-sucursales .sucursales .figure-img-sucursales {
     height: 400px;
     width: 600px; }
-  .sucursales iframe {
+  .main-sucursales .sucursales iframe {
     height: 400px;
     width: 600px; }
-  .img-libreria img {
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
     width: 600px;
     height: 350px; } }
 
 @media (max-width: 1024px) {
-  .img-local {
+  .main-index .div-local .img-local {
     width: 450px;
     height: 300px; }
-  .mapa-iframe {
+  .main-index .div-local .mapa-iframe {
     width: 450px;
     height: 300px; }
-  .d-block {
+  .main-index .carousel .carousel-inner div .d-block {
     height: 300px;
     width: 950px;
     margin-left: 35px; }
-  .h3-libros {
+  .main-index .h3-libros {
     margin-left: 15px;
     margin-right: 15px; }
-  .sucursales img {
+  .main-productos .carousel .carousel-inner div .d-block {
+    height: 300px;
+    width: 950px;
+    margin-left: 35px; }
+  .main-productos .h3-libros {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .main-sucursales .figure-sucursales .sucursales .figure-img-sucursales {
     height: 300px;
     width: 400px; }
-  .sucursales iframe {
+  .main-sucursales .figure-sucursales .sucursales iframe {
     height: 300px;
     width: 400px; }
-  .sucursales img {
-    width: 400px;
-    height: 300px; }
-  .img-libreria img {
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
     width: 450px;
     height: 250px; } }
 
 @media (max-width: 768px) {
-  .img-local {
+  .main-index .div-local .img-local {
     width: 300px;
     height: 250px; }
-  .mapa-iframe {
+  .main-index .div-local .mapa-iframe {
     width: 300px;
     height: 250px; }
-  .figure {
-    margin-left: 5px;
-    margin-right: 5px; }
-  .d-block {
+  .main-index .carousel .carousel-inner div .d-block {
     height: 300px;
     width: 750px;
     margin-left: 10px; }
-  .figure-img {
+  .main-index .containerFigure .figure {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-index .containerFigure .figure-img {
     width: 200px;
     height: 250px; }
-  .sucursales iframe {
+  .main-index .h3-libros {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .main-productos .carousel .carousel-inner div .d-block {
+    height: 300px;
+    width: 750px;
+    margin-left: 10px; }
+  .main-productos .containerFigure .figure {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .main-productos .containerFigure .figure-img {
+    width: 200px;
+    height: 250px; }
+  .main-productos .h3-libros {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .main-sucursales .figure-sucursales .sucursales .figure-img-sucursales {
     height: 200px;
     width: 300px; }
-  .sucursales img {
-    width: 300px;
-    height: 200px; }
-  .img-libreria img {
+  .main-sucursales .figure-sucursales .sucursales iframe {
+    height: 200px;
+    width: 300px; }
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
     width: 300px;
     height: 250px; } }
 
 @media (max-width: 425px) {
-  .div-local {
+  .main-index .div-local {
     display: flex;
     flex-direction: column; }
-  .img-local {
-    width: 300px;
-    height: 250px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .mapa-iframe {
-    width: 300px;
-    height: 250px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .d-block {
+    .main-index .div-local .img-local {
+      width: 300px;
+      height: 250px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .main-index .div-local .mapa-iframe {
+      width: 300px;
+      height: 250px;
+      margin-left: 10px;
+      margin-right: 10px; }
+  .main-index .carousel .carousel-inner div .d-block {
     height: 150px;
     width: 400px;
     margin-left: 5px; }
-  .containerFigure {
+  .main-index .containerFigure {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .h3-libros {
+    .main-index .containerFigure .figure {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .main-index .containerFigure .figure-img {
+      width: 200px;
+      height: 250px; }
+  .main-index .h3-libros {
     display: flex;
     justify-content: center;
     margin-left: 30px;
     margin-right: 30px; }
-  .sucursales {
+  .main-productos .carousel .carousel-inner div .d-block {
+    height: 150px;
+    width: 400px;
+    margin-left: 5px; }
+  .main-productos .containerFigure {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .sucursales iframe {
-    margin-bottom: 10px; }
-  .sucursales img {
-    margin-bottom: 10px; }
-  .img-libreria {
+    .main-productos .containerFigure .figure {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .main-productos .containerFigure .figure-img {
+      width: 200px;
+      height: 250px; }
+  .main-productos .h3-libros {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .main-sucursales .sucursales {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .img-libreria img {
-    margin-bottom: 10px; }
-  .footer-div {
+    .main-sucursales .sucursales .figure-img-sucursales {
+      height: 200px;
+      width: 300px;
+      margin-bottom: 10px; }
+    .main-sucursales .sucursales iframe {
+      height: 200px;
+      width: 300px;
+      margin-bottom: 10px; }
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
+      width: 300px;
+      height: 250px; }
+  footer .container .row .footer-div {
     display: flex;
     flex-direction: column;
     align-items: center; } }
+
+@media (max-width: 320px) {
+  .main-productos .carousel .carousel-inner div .d-block {
+    height: 150px;
+    width: 400px;
+    margin-left: 5px; }
+  .main-productos .containerFigure {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-productos .containerFigure .figure {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .main-productos .containerFigure .figure-img {
+      width: 200px;
+      height: 250px; }
+  .main-productos .h3-libros {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .main-sucursales .figure-sucursales .sucursales .figure-img-sucursales {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px; }
+  .main-sucursales .figure-sucursales .sucursales iframe {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px; }
+  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px; } }
+
+header nav .container div form .btn {
+  background-color: #5bbfcc;
+  color: white; }
+  header nav .container div form .btn:hover {
+    background-color: #234e53; }
