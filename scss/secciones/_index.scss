@@ -1,10 +1,28 @@
+body{
+    background-color: rgb(233, 237, 241);
+}
+
+header{
+    nav{
+        .container{
+            div{
+                .d-flex{
+                    .btn-outline-success{
+                        border-color: rgb(66, 128, 134);
+                    }
+                }
+            }
+        }
+    }
+}
+
 .main-index{
 
     .h3-sucursal{
         margin-left: 60px;
         margin-right: 60px;
         margin-top: 10px;
-        background-color: rgb(245, 247, 250);
+        background-color: rgb(190, 202, 221);
         display: flex;
         justify-content: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,6 +39,7 @@
             margin-left: 40px;
             margin-top: 15px;
             margin-bottom: 15px;
+            border-radius: 20px;
         }
         
         .mapa-iframe{
@@ -29,6 +48,7 @@
             margin-right: 50px;
             margin-top: 15px;
             margin-bottom: 15px;
+            border-radius: 20px;
         }
     }
     .carousel{
@@ -36,8 +56,10 @@
             div{
                 .d-block{
                 height: 400px;
-                width: 1200px;
-                margin-left: 70px;
+                width: 95%;
+                margin-top: 15px;
+                margin-left: 30px;
+                margin-right: 10px;
                 }
             }
         }
@@ -56,9 +78,9 @@
             flex-direction: column;
             align-content: center;
             padding-left: 10px;
-            padding-right: 10px; 
+            padding-right: 10px;  
             &:hover{
-                transform: scale(1.10);
+                transform: scale(1.05);
                 transition: 0.5s;
             }
     
@@ -75,10 +97,10 @@
     }
     
     .h3-libros{
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 30px;
+        margin-right: 35px;
         margin-top: 10px;
-        background-color: rgb(245, 247, 250);
+        background-color: rgb(160, 193, 194);
         
     }
     
@@ -94,6 +116,9 @@
             &:hover{
                 background-color: rgb(35, 78, 83);
             }
+        }
+        .btn-success{
+            border-color: rgb(66, 128, 134);
         }
     }
 }

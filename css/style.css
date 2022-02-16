@@ -5,47 +5,45 @@
   padding-left: 10px;
   padding-right: 10px; }
 
-.estilo-libros {
-  background-color: #ce88ce; }
-
-.estilo-mangas {
-  background-color: #7171b8; }
-
-.estilo-comics {
-  background-color: #d45c5c; }
-
-.estilo-merchandising {
-  background-color: #b48d43; }
-
-header nav .container div form .btn {
-  background-color: #5bbfcc;
-  color: white; }
-  header nav .container div form .btn:hover {
-    background-color: #234e53; }
+header {
+  background-color: #85cccf; }
+  header nav .container div form .btn {
+    background-color: #589299;
+    color: white; }
+    header nav .container div form .btn:hover {
+      background-color: #234e53; }
 
 footer {
-  background-color: #e0e4e9; }
+  background-color: #85cccf; }
   footer .container .row div .h3-footer {
     margin-top: 10px; }
   footer .container .row div .ul-footer li {
     margin-bottom: 10px;
     list-style: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  footer .container .row div .img-redes {
+  footer .container .row div ul .img-redes {
     border-radius: 50%;
     height: 50px;
     width: 50px; }
-    footer .container .row div .img-redes:hover {
+    footer .container .row div ul .img-redes:hover {
       transform: scale(1.1);
       transition: 00.5s; }
+  footer .container .row div ul p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   footer .footer-copyright {
     background-color: white; }
+
+body {
+  background-color: #e9edf1; }
+
+header nav .container div .d-flex .btn-outline-success {
+  border-color: #428086; }
 
 .main-index .h3-sucursal {
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 10px;
-  background-color: #f5f7fa;
+  background-color: #becadd;
   display: flex;
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
@@ -59,18 +57,22 @@ footer {
     height: 400px;
     margin-left: 40px;
     margin-top: 15px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    border-radius: 20px; }
   .main-index .div-local .mapa-iframe {
     width: 575px;
     height: 400px;
     margin-right: 50px;
     margin-top: 15px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    border-radius: 20px; }
 
 .main-index .carousel .carousel-inner div .d-block {
   height: 400px;
-  width: 1200px;
-  margin-left: 70px; }
+  width: 95%;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 10px; }
 
 .main-index .containerFigure {
   margin-top: 15px;
@@ -86,7 +88,7 @@ footer {
     padding-left: 10px;
     padding-right: 10px; }
     .main-index .containerFigure .figure:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
       transition: 0.5s; }
     .main-index .containerFigure .figure .figure-img {
       width: 200px;
@@ -96,10 +98,10 @@ footer {
       justify-content: center; }
 
 .main-index .h3-libros {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 30px;
+  margin-right: 35px;
   margin-top: 10px;
-  background-color: #f5f7fa; }
+  background-color: #a0c1c2; }
 
 .main-index .button {
   display: flex;
@@ -111,31 +113,35 @@ footer {
     color: white; }
     .main-index .button .btn:hover {
       background-color: #234e53; }
+  .main-index .button .btn-success {
+    border-color: #428086; }
 
 .main-nosotros .accordion {
-  margin-left: 10px;
-  margin-right: 10px; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body p {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 20px; }
+  .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria {
+  .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria {
     display: flex;
     justify-content: space-around; }
-    .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria .img {
+    .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria .libreria {
       width: 500px;
-      height: 250px; }
+      height: 350px;
+      border-radius: 10px; }
 
 .main-nosotros .formulario {
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
   margin-bottom: 15px;
-  width: 98%;
+  width: 95%;
   background-color: #b0cdd8;
   border-radius: 10px;
   padding: 10px; }
 
 .main-sucursales .figure-sucursales {
   border-style: groove;
-  border-color: #bbedf3;
+  border-color: #bcdde0;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -154,16 +160,22 @@ footer {
     .main-sucursales .figure-sucursales .sucursales .figure-img-sucursales {
       height: 450px;
       width: 600px; }
-    .main-sucursales .figure-sucursales .sucursales iframe {
+    .main-sucursales .figure-sucursales .sucursales .iframe {
       height: 450px;
       width: 600px; }
-  .main-sucursales .figure-sucursales p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .main-sucursales .figure-sucursales .info-sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-sucursales .figure-sucursales .info-sucursales p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .main-productos .carousel .carousel-inner div .d-block {
   height: 400px;
-  width: 1200px;
-  margin-left: 70px; }
+  width: 95%;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 10px; }
 
 .main-productos .containerFigure {
   margin-top: 15px;
@@ -184,9 +196,10 @@ footer {
       justify-content: center; }
 
 .main-productos .h3-libros {
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 10px; }
+  margin-left: 30px;
+  margin-right: 35px;
+  margin-top: 10px;
+  background-color: #a0c1c2; }
 
 .main-productos .button {
   display: flex;
@@ -198,28 +211,15 @@ footer {
     color: white; }
     .main-productos .button .btn:hover {
       background-color: #234e53; }
-
-@media (max-width: 1440px) {
-  .main-productos .carousel .carousel-inner div .d-block {
-    height: 450px;
-    width: 1200px;
-    margin-left: 70px; }
-  .main-sucursales .sucursales .figure-img-sucursales {
-    height: 400px;
-    width: 600px; }
-  .main-sucursales .sucursales iframe {
-    height: 400px;
-    width: 600px; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
-    width: 600px;
-    height: 350px; } }
+  .main-productos .button .btn-success {
+    border-color: #428086; }
 
 @media (max-width: 1024px) {
   .main-index .div-local .img-local {
-    width: 450px;
+    width: 500px;
     height: 300px; }
   .main-index .div-local .mapa-iframe {
-    width: 450px;
+    width: 500px;
     height: 300px; }
   .main-index .carousel .carousel-inner div .d-block {
     height: 300px;
@@ -241,16 +241,19 @@ footer {
   .main-sucursales .figure-sucursales .sucursales iframe {
     height: 300px;
     width: 400px; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
+  .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria .libreria {
     width: 450px;
-    height: 250px; } }
+    height: 350px; } }
 
 @media (max-width: 768px) {
+  .main-index .h3-sucursal {
+    margin-left: 15px;
+    margin-right: 15px; }
   .main-index .div-local .img-local {
-    width: 300px;
+    width: 325px;
     height: 250px; }
   .main-index .div-local .mapa-iframe {
-    width: 300px;
+    width: 325px;
     height: 250px; }
   .main-index .carousel .carousel-inner div .d-block {
     height: 300px;
@@ -284,11 +287,19 @@ footer {
   .main-sucursales .figure-sucursales .sucursales iframe {
     height: 200px;
     width: 300px; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
+  .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria .libreria {
     width: 300px;
-    height: 250px; } }
+    height: 200px; }
+  .main-nosotros .formulario {
+    width: 93%;
+    margin-left: 30px; } }
 
 @media (max-width: 425px) {
+  .main-index .h3-sucursal {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
   .main-index .div-local {
     display: flex;
     flex-direction: column; }
@@ -303,7 +314,7 @@ footer {
       margin-left: 10px;
       margin-right: 10px; }
   .main-index .carousel .carousel-inner div .d-block {
-    height: 150px;
+    height: 200px;
     width: 400px;
     margin-left: 5px; }
   .main-index .containerFigure {
@@ -319,8 +330,10 @@ footer {
   .main-index .h3-libros {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
-    margin-right: 30px; }
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
   .main-productos .carousel .carousel-inner div .d-block {
     height: 150px;
     width: 400px;
@@ -338,8 +351,10 @@ footer {
   .main-productos .h3-libros {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
-    margin-right: 30px; }
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
   .main-sucursales .sucursales {
     display: flex;
     flex-direction: column;
@@ -352,13 +367,17 @@ footer {
       height: 200px;
       width: 300px;
       margin-bottom: 10px; }
-  .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria {
+  .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .main-nosotros .accordion div .accordion-collapse .accordion-body .img-libreria img {
+    .main-nosotros .accordion .accordion-item .accordion-collapse .accordion-body .img-libreria img {
       width: 300px;
-      height: 250px; }
+      height: 250px;
+      margin-bottom: 10px; }
+  .main-nosotros .formulario {
+    width: 90%;
+    margin-left: 20px; }
   footer .container .row .footer-div {
     display: flex;
     flex-direction: column;
@@ -397,8 +416,10 @@ footer {
     height: 200px;
     margin-bottom: 10px; } }
 
-header nav .container div form .btn {
-  background-color: #5bbfcc;
-  color: white; }
-  header nav .container div form .btn:hover {
-    background-color: #234e53; }
+header {
+  background-color: #85cccf; }
+  header nav .container div form .btn {
+    background-color: #589299;
+    color: white; }
+    header nav .container div form .btn:hover {
+      background-color: #234e53; }

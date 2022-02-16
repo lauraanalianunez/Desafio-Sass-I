@@ -1,32 +1,42 @@
 footer{
-    background-color: rgb(224, 228, 233);
+    background-color: rgb(133, 204, 207);
 
     .container{
         .row{
+ 
             div{
-                .h3-footer{
+               .h3-footer{
                 margin-top: 10px;
-                }
+                } 
+            }
 
-                .ul-footer{
-                    li{
-                        margin-bottom: 10px;
-                        list-style: none;
-                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    }
-                    
-                }
-
-                .img-redes{
-                border-radius: 50%;
-                height: 50px;
-                width: 50px;
-                &:hover{
-                    transform: scale(1.10);
-                    transition: 00.5s;
-                    }
+            div{
+               .ul-footer{
+                li{
+                    margin-bottom: 10px;
+                    list-style: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    } 
                 }
             }
+
+            div{
+                ul{
+                    .img-redes{
+                        border-radius: 50%;
+                        height: 50px;
+                        width: 50px;
+                        &:hover{
+                        transform: scale(1.10);
+                        transition: 00.5s;
+                        }
+                    }
+                    p{
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                }
+                   
+            }     
         }
     }
 
