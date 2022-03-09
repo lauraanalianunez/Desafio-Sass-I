@@ -165,7 +165,17 @@
     }
 
     .main-sucursales{
+        .h3-libros{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
         .figure-sucursales{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 5px;
+
             .sucursales{
                 .figure-img-sucursales{
                 height: 200px;
@@ -177,6 +187,7 @@
                 width: 300px;
                 }
             }
+
         }   
     }
 
@@ -327,6 +338,12 @@
             margin-bottom: 10px;
             }
         }
+
+        .figure-sucursales{
+            .info-sucursales{
+                align-items: flex-start;
+            } 
+        }
     }
 
     .main-nosotros{
@@ -361,7 +378,7 @@
                 .footer-div{
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
+                    align-items: stretch;
                 }
             }
         }

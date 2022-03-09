@@ -8,7 +8,8 @@
             .accordion-collapse{
                 .accordion-body{
                     p{
-                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        margin-left: 30px;
+                        margin-right: 30px;
                     }
                     .img-libreria{
                         display: flex;
@@ -31,5 +32,6 @@
         margin-bottom: 15px;
         width: 95%;
         @include formulario (rgb(176, 205, 216), 10px, 10px);
+        
     }
 }

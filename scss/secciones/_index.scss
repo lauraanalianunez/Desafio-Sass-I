@@ -25,7 +25,7 @@ header{
         background-color: rgb(190, 202, 221);
         display: flex;
         justify-content: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: linear-gradient(to right, rgb(160, 193, 194), rgb(233, 237, 241));
     }
     
     .div-local{
@@ -35,7 +35,7 @@ header{
 
         .img-local{
             width: 575px;
-            height: 400px;
+            height: 300px;
             margin-left: 40px;
             margin-top: 15px;
             margin-bottom: 15px;
@@ -44,7 +44,7 @@ header{
         
         .mapa-iframe{
             width: 575px;
-            height: 400px;
+            height: 300px;
             margin-right: 50px;
             margin-top: 15px;
             margin-bottom: 15px;
@@ -93,6 +93,10 @@ header{
                 display: flex;
                 justify-content: center;
             }
+            
+            a{
+                text-decoration: none;
+            }
         }
     }
     
@@ -101,6 +105,7 @@ header{
         margin-right: 35px;
         margin-top: 10px;
         background-color: rgb(160, 193, 194);
+        background-image: linear-gradient(to right, rgb(160, 193, 194), rgb(233, 237, 241));
         
     }
     
