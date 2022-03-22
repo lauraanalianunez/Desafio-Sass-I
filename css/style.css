@@ -202,7 +202,8 @@ header nav .container div .d-flex .btn-outline-success {
     .main-productos .containerFigure .figure .figure-caption {
       display: flex;
       justify-content: center;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-bottom: 0px; }
 
 .main-productos .h3-libros {
   margin-left: 30px;
@@ -448,3 +449,20 @@ header {
     color: white; }
     header nav .container div form .btn:hover {
       background-color: #234e53; }
+
+main table tbody tr .tabla-productos .img-carrito {
+  width: 70px;
+  height: 70px; }
+
+main div .boton .btn {
+  background-color: #5bbfcc;
+  color: white;
+  margin-bottom: 10px; }
+  main div .boton .btn:hover {
+    background-color: #234e53; }
+
+main div .boton .btn-success {
+  border-color: #428086; }
+  main div .boton .btn-success a {
+    text-decoration: none;
+    color: white; }

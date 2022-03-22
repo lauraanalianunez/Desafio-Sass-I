@@ -1,0 +1,38 @@
+main {
+    table {
+        tbody {
+            tr {
+                .tabla-productos {
+                    .img-carrito {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    div {
+        .boton {
+            .btn {
+                background-color: rgb(91, 191, 204);
+                color: white;
+
+                &:hover {
+                    background-color: rgb(35, 78, 83);
+                }
+                margin-bottom: 10px;
+            }
+
+            .btn-success {
+                border-color: rgb(66, 128, 134);
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
