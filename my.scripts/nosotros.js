@@ -4,9 +4,11 @@ const boton = document.getElementById('boton');
 
 boton.onclick = Enviar
 
+boton.addEventListener('click', () => {
+     
+})
 function Enviar(e) {
     e.preventDefault()
-    alert('Mensaje enviado');
     console.log(e.target);
     infoFormulario()
 }
@@ -20,5 +22,11 @@ function infoFormulario() {
 }
 
 boton.addEventListener('click', () => {
+    swal({
+        title: "¡Mensaje Enviado!",
+        text: "Tu mensaje sera respondido a la brevedad.",
+        icon: "success",
+        button: "¡Listo!",
+      });
     console.log('Mensaje Enviado');
 })
